@@ -28,7 +28,7 @@
     <!-- <label for="uname"><b>Username</b></label> -->
     <input type="text" placeholder="Username" name="uname" required>
 
-    <label for="psw"><b>Password</b></label>
+    <%-- <label for="psw"><b>Password</b></label> --%>
     <input type="password" placeholder="Password" name="psw" required>
 
     <button type="submit">Login</button>
