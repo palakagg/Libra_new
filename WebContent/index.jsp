@@ -133,7 +133,7 @@
               <i class="mdi mdi-home menu-icon"></i>
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <span class="menu-title">Clearing Members</span>
               <i class="menu-arrow"></i>
@@ -147,11 +147,11 @@
                 <li class="nav-item"> <a class="nav-link" href="ClearingMember.jsp">Deutsche Bank</a></li>
               </ul>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="Securities.jsp">
-              <span class="menu-title">Securities</span>
-              <i class="mdi mdi-book-multiple menu-icon"></i>
+            <a class="nav-link" href="#">
+              <button type="button" class="settle">SETTLE NOW!</button>
+              <!-- <i class="mdi mdi-book-multiple menu-icon"></i> -->
             </a>
           </li>
 <!-- 
