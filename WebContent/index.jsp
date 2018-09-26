@@ -150,9 +150,14 @@
           </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <button type="button" class="settle">SETTLE NOW!</button>
+              <button type="button" class="settle" id="settle">SETTLE NOW!</button>
               <!-- <i class="mdi mdi-book-multiple menu-icon"></i> -->
             </a>
+          </li>
+          <li class="nav-item"> 
+            <!-- <a class="nav-link" href="index.jsp"> -->
+               <div class="settleList" id="settleList"></div>
+            <!-- </a> -->
           </li>
 <!-- 
           <li class="nav-item">
@@ -214,6 +219,8 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
   <script src="vendors/js/vendor.bundle.base.js"></script>
   <script src="vendors/js/vendor.bundle.addons.js"></script>
   <script src="data.js"></script>
@@ -227,6 +234,7 @@
   <!-- Custom js for this page-->
   <script src="js/dashboard.js"></script>
   <!-- End custom js for this page-->
+
   
 
 </body>
