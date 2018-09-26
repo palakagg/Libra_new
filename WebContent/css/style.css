@@ -17381,9 +17381,13 @@ input:focus {
     
 }
 
-.sidebar .nav .nav-item .settleList{
+/* .sidebar .nav .nav-item .settleList{
 	color: #9CCB70;
-}
+} */
+
+
+
+
 
 .sidebar .nav .nav-item .nav-link {
   display: -webkit-flex;
@@ -17565,6 +17569,152 @@ input:focus {
 .sidebar .nav.sub-menu .nav-item:hover {
   background: transparent;
 }
+
+
+
+
+
+.sidebar .nav1 {
+  overflow: hidden;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.sidebar .nav1 .nav-item {
+  padding: 0 2.25rem;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  transition-property: background;
+  -webkit-transition-property: background;
+}
+
+.sidebar .nav1 .nav-item .collapse {
+  z-index: 999;
+}
+
+.sidebar .nav1 .nav-item .nav-link .settle{
+	background-color: #4CAF50;
+	border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+/* .sidebar .nav .nav-item .settleList{
+	color: #9CCB70;
+} */
+
+
+
+
+
+.sidebar .nav1 .nav-item .nav-link {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  white-space: nowrap;
+  padding: 1.125rem 0 1.125rem 0;
+  color: #9CCB70;
+  -webkit-transition-duration: 0.45s;
+  -moz-transition-duration: 0.45s;
+  -o-transition-duration: 0.45s;
+  transition-duration: 0.45s;
+  transition-property: color;
+  -webkit-transition-property: color;
+}
+
+.sidebar .nav1 .nav-item .nav-link i {
+  color: inherit;
+}
+
+.sidebar .nav1 .nav-item .nav-link i.menu-icon {
+  font-size: 1.125rem;
+  line-height: 1;
+  margin-left: auto;
+  color: #9CCB70;
+}
+.sidebar .nav1 .nav-item.sidebar-actions {
+  margin-top: 1rem;
+}
+
+.sidebar .nav1 .nav-item.sidebar-actions .nav-link {
+  border-top: 0;
+  display: block;
+  height: auto;
+}
+
+.sidebar .nav1 .nav-item.sidebar-actions:hover {
+  background: initial;
+}
+
+.sidebar .nav1 .nav-item.sidebar-actions:hover .nav-link {
+  color: initial;
+}
+
+.sidebar .nav1:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.nav-profile) > .nav-link {
+  color: #629110;
+}
+
+.sidebar .nav1.sub-menu {
+  margin-bottom: 20px;
+  margin-top: 0;
+  list-style: none;
+}
+
+.sidebar .nav1.sub-menu .nav-item {
+  padding: 0;
+}
+
+.sidebar .nav1.sub-menu .nav-item .nav-link {
+  color: #888;
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  position: relative;
+  font-size: 0.8125rem;
+  line-height: 1;
+  height: auto;
+  border-top: 0;
+}
+
+.sidebar .nav1.sub-menu .nav-item .nav-link:before {
+  content: "\F054";
+  font-family: "Material Design Icons";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #a2a2a2;
+  font-size: .75rem;
+}
+
+.sidebar .nav1.sub-menu .nav-item .nav-link.active {
+  color: #555555;
+  background: transparent;
+}
+
+.sidebar .nav1.sub-menu .nav-item .nav-link:hover {
+  color: #555555;
+}
+
+.sidebar .nav1.sub-menu .nav-item:hover {
+  background: transparent;
+}
+
+
+
+
 
 /* style for off-canvas menu*/
 @media screen and (max-width: 991px) {
