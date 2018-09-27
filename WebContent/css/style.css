@@ -9197,14 +9197,26 @@ pre code {
 }
 
 .row .table{
-	height: 23rem;
+	height: auto;
 	width:100%;
-	color:  #AF0405;
-	background-color: #9A5C41;
+	color:  white;
+	background-color: #2E4D58;
+	/* border: 0px; */
+}
+
+.row .table .td{
+	boder: 0px; 
 }
 
 .row .table .tableHead{
+	padding: 0 0;
+}
+
+.row .table .form-control{
 	color: black;
+	background-color: #3D7389;
+	width: auto;
+	/* padding: 0 0; */
 }
 
 .no-gutters {

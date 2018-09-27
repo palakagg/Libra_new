@@ -20,13 +20,13 @@
 <body>
 <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
-    <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row"> <!--change logo-->
+    <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row" > <!--change logo-->
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <a class="navbar-brand brand-logo" href="index.jsp"><img src="images/Libra-text-logo-white.png" alt="logo"/></a>
         <!-- <a class="navbar-brand brand-logo-mini" href="index.jsp"><img src="images/logo-mini.svg" alt="logo"/></a> -->
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-stretch">
-        <div class="search-field d-none d-md-block">
+        <!-- <div class="search-field d-none d-md-block">
           <form class="d-flex align-items-center h-100" action="index.jsp">
             <div class="input-group">
               <div class="input-group-prepend bg-transparent">
@@ -35,7 +35,7 @@
               <input type="text" class="form-control bg-transparent border-0" placeholder="Search">
             </div>
           </form>
-        </div>
+        </div> -->
         <ul class="navbar-nav navbar-nav-right">
 
           <li class="nav-item d-none d-lg-block full-screen-link">
@@ -194,6 +194,7 @@
 		</table> -->
 		  
           </div>
+          <div id="settledTables"></div>
 
 
         </div>
