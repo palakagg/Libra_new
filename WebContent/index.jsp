@@ -112,8 +112,8 @@
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:partials/_sidebar.html -->
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-      <div id="nav">
+     <nav class="sidebar sidebar-offcanvas" id="sidebar">
+     <div id="nav">
         <ul id="nav" class="nav">
         
           <li class="nav-item nav-profile">
@@ -156,25 +156,18 @@
               <!-- <i class="mdi mdi-book-multiple menu-icon"></i> -->
             </a>
           </li>
-          </ul>
-          </div>
-          <div id="nav1"></div>
+        </ul>
+       </div>
+     <div id="nav1" class="nav1">
+     </div>
           <!-- <li class="nav-item"> 
             <a class="nav-link" href="index.jsp">
                <div class="settleList" id="settleList"></div>
                
             </a>
           </li> -->
-<!-- 
-          <li class="nav-item">
-            <a class="nav-link" href="basic-table.html">
-              <span class="menu-title">Tables</span>
-              <i class="mdi mdi-table-large menu-icon"></i>
-            </a>
-          </li> -->
-         
-        
-      </nav>
+    </nav>
+     
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
@@ -187,8 +180,9 @@
             </h3>
  
           </div>
-          <div class="row">
-		<table border="1" bgcolor="white" >
+          <div id="row" class="row">
+          
+		<!-- <table border="1" bgcolor="white" >
 			<tr>
 			<td>1</td>
 			<td>Apple</td>
@@ -197,12 +191,8 @@
 			<td>Goldman Sachs</td>
 			<td>JP</td>
 		</tr>
-		</table>
+		</table> -->
 		  
-          </div>
-
-          <div class="row">
-
           </div>
 
 

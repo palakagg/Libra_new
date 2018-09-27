@@ -8986,6 +8986,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  color: white;
 }
 
 h6, .h6 {
@@ -9181,10 +9182,11 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 20px;
+  /* padding-right: 20px;
   padding-left: 20px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
+ 
 }
 
 .row {
@@ -9192,6 +9194,17 @@ pre code {
   flex-wrap: wrap;
   margin-right: -20px;
   margin-left: -20px;
+}
+
+.row .table{
+	height: 23rem;
+	width:100%;
+	color:  #AF0405;
+	background-color: #9A5C41;
+}
+
+.row .table .tableHead{
+	color: black;
 }
 
 .no-gutters {
@@ -17583,39 +17596,101 @@ input:focus {
 
 .sidebar .nav1 .nav-item {
   padding: 0 2.25rem;
-  -webkit-transition-duration: 0.25s;
+  height:3.5rem;
+  line-height:1.4rem;
+  /* -webkit-transition-duration: 0.25s;
   -moz-transition-duration: 0.25s;
   -o-transition-duration: 0.25s;
-  transition-duration: 0.25s;
+  transition-duration: 0.25s; */
   transition-property: background;
   -webkit-transition-property: background;
+  list-style: none;
+}
+
+.sidebar .nav1 .nav-item:hover{
+	background-color: #242424;
+}
+
+/* .sidebar .nav1 .nav-item .funds{
+	background-color: transparent;
+    border: none;
+    color: #9CCB70;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+ */
+.sidebar .nav1 .nav-item .securities{
+	background-color: transparent;
+	margin-left:0;
+	margin-righ: 0;
+	border: none;
+    white-space: nowrap;
+    padding: 1.125rem 0 1.125rem 0;
+    color: #9CCB70;
+}
+
+.sidebar .nav1 .nav-item .securities:hover{
+	cursor: pointer;
+}
+
+
+.sidebar .nav1 .nav-item .funds{
+	border: none;
+	margin-left:0;
+	margin-righ: 0;
+	background-color: transparent;
+    white-space: nowrap;
+    padding: 1.125rem 0 1.125rem 0;
+    color: #9CCB70;
+}
+
+.sidebar .nav1 .nav-item .funds:hover{
+	cursor: pointer;
+}
+
+
+.sidebar .nav1 .nav-item .cost{
+	border: none;
+	margin-left:0;
+	margin-righ: 0;
+	background-color: transparent;
+    white-space: nowrap;
+    padding: 1.125rem 0 1.125rem 0;
+    color: #9CCB70;
+}
+
+.sidebar .nav1 .nav-item .cost:hover{
+	cursor: pointer;
+}
+
+
+.sidebar .nav1 .nav-item .pdf{
+	border: none;
+	margin-left:0;
+	margin-righ: 0;
+	background-color: transparent;
+    white-space: nowrap;
+    padding: 1.125rem 0 1.125rem 0;
+    color: #9CCB70;
+}
+.sidebar .nav1 .nav-item .pdf:hover{
+	cursor: pointer;
 }
 
 .sidebar .nav1 .nav-item .collapse {
   z-index: 999;
 }
 
-.sidebar .nav1 .nav-item .nav-link .settle{
-	background-color: #4CAF50;
-	border: none;
-    color: white;
-    /* padding: 15px 32px; */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    
-}
 
 /* .sidebar .nav .nav-item .settleList{
 	color: #9CCB70;
 } */
 
 
-
-
-
-.sidebar .nav1 .nav-item .nav-link {
+/* .sidebar .nav1 .nav-item {
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -17629,9 +17704,9 @@ input:focus {
   transition-duration: 0.45s;
   transition-property: color;
   -webkit-transition-property: color;
-}
+} */
 
-.sidebar .nav1 .nav-item .nav-link i {
+/* .sidebar .nav1 .nav-item .nav-link i {
   color: inherit;
 }
 
@@ -17640,30 +17715,30 @@ input:focus {
   line-height: 1;
   margin-left: auto;
   color: #9CCB70;
-}
+} */
 .sidebar .nav1 .nav-item.sidebar-actions {
   margin-top: 1rem;
 }
 
-.sidebar .nav1 .nav-item.sidebar-actions .nav-link {
+/* .sidebar .nav1 .nav-item.sidebar-actions .nav-link {
   border-top: 0;
   display: block;
   height: auto;
-}
+} */
 
 .sidebar .nav1 .nav-item.sidebar-actions:hover {
   background: initial;
 }
 
-.sidebar .nav1 .nav-item.sidebar-actions:hover .nav-link {
+/* .sidebar .nav1 .nav-item.sidebar-actions:hover .nav-link {
   color: initial;
-}
+} */
 
-.sidebar .nav1:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.nav-profile) > .nav-link {
+/* .sidebar .nav1:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.nav-profile) > .nav-link {
   color: #629110;
 }
-
-.sidebar .nav1.sub-menu {
+ */
+/* .sidebar .nav1.sub-menu {
   margin-bottom: 20px;
   margin-top: 0;
   list-style: none;
@@ -17711,7 +17786,7 @@ input:focus {
 .sidebar .nav1.sub-menu .nav-item:hover {
   background: transparent;
 }
-
+ */
 
 
 
