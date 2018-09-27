@@ -1,0 +1,101 @@
+<!-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%> -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+</head>
+<body>
+<table id="table_format" class="table table-bordered table-striped table-hover table-list-search">
+                    <thead>
+                        <tr>
+                            
+                          
+							
+                            <th>Company Name
+							<select id='filterText' style='display:inline-block' onchange='filterText()'>
+								<option disabled selected>Select</option>
+								<option value='Goldman Sachs'>Goldman Sachs</option>
+								<option value='Citi'>Citi</option>
+								<option value='JP Morgan'>JP Morgan</option>
+								<option value='Deutsche Bank'>Deutsche Bank</option>
+								<option value='all'>All</option>
+							</select>
+							</th>
+							<th>Available Funds
+							</th>
+							<th>Netted Funds</th>
+							<th>Cost of Settlement</th>
+							
+                        </tr>
+                    </thead>
+                    <tbody  id="myTable">
+                        <tr class="content">
+                          
+                            <td>Citi</td>
+                            <td>199600.00</td>
+                            <td>NULL</td>
+							<td>NULL</td>
+                        </tr>
+                        
+                        <tr class="content">
+                           <td>Goldman sachs</td>
+                            <td>311500.00</td>
+                            <td>NULL</td>
+							<td>NULL</td>
+							
+                        </tr>
+                        <tr class="content">
+                           <td>Deutsche Bank</td>
+                            <td>4312000.00</td>
+                            <td>NULL</td>
+							<td>NULL</td>
+							</tr>
+							
+							<tr class="content">
+                          <td>JP Morgan</td>
+                            <td>1872000.00</td>
+                            <td>NULL</td>
+							<td>NULL</td>
+							</tr>
+                        <!-- </tr> -->
+                        <!-- <tr class="content"> -->
+                            <!-- <td>2</td> -->
+                            <!-- <td>Jacob</td> -->
+                            <!-- <td>Thornton</td> -->
+                            <!-- <td>no</td> -->
+                        <!-- </tr> -->
+                        <!-- <tr class="content"> -->
+                            <!-- <td>3</td> -->
+                            <!-- <td>Larry</td> -->
+                            <!-- <td>the Bird</td> -->
+                            <!-- <td>no</td> -->
+                        <!-- </tr> -->
+                    </tbody>
+                </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+function filterText()
+	{  
+		var rex = new RegExp($('#filterText').val());
+		if(rex =="/all/"){clearFilter()}else{
+			$('.content').hide();
+			$('.content').filter(function() {
+			return rex.test($(this).text());
+			}).show();
+	}
+	}
+	
+function clearFilter()
+	{
+		$('.filterText').val('');
+		$('.content').show();
+	}
+</script>
+</body>
+</html>

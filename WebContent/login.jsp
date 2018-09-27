@@ -21,12 +21,20 @@
 
 <form action="index.jsp" method="POST">
   <div class="imgcontainer">
-	<img src="images/Libra-text-logo-white-big.png" alt="Avatar" class="avatar">
+	<img src="images/Libra-text-logo-white-big.png" alt="logo" class="avatar">
   </div>
 
   <div class="container">
     <!-- <label for="uname"><b>Username</b></label> -->
-    <input type="text" placeholder="Username" name="uname" required>
+    <select class="username"  name="uname" required style="width:100%; padding: 12px 20px; margin: 8px 0; border: 1px solid #ccc">
+    	<option value="Username">Username</option>
+    	<option value="admin">Admin</option>
+    	<option value="citi">CITIBANK</option>
+    	<option value="jp">JP Morgan</option>
+    	<option value="db">Deutsche Bank</option>
+    	<option value="gs">Goldman Sachs</option>
+    </select>
+    
 
     <%-- <label for="psw"><b>Password</b></label> --%>
     <input type="password" placeholder="Password" name="psw" required>

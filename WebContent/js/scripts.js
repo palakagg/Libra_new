@@ -7,7 +7,7 @@ $(document).ready(function() {
 	$("#funds").click(function(){
 		$("#row").hide();
 		/*console.log("hello");*/
-		$("#settledTables").load();
+		$("#settledTables").load("funds.html");
 	});
 	$("#securities").click(function(){
 		$("#row").hide();

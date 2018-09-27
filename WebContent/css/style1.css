@@ -15,11 +15,13 @@ form {
 	transform: translate(115%, 30%);
 }
 
-label{
-    color: white;
-    font-family: sans-serif;
-    font-size: medium;
-
+.background .container .username{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 /* Full-width inputs */

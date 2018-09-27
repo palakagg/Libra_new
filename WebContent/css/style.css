@@ -9204,18 +9204,36 @@ pre code {
 	/* border: 0px; */
 }
 
-.row .table .td{
+/* .row .table .td{
 	boder: 0px; 
 }
-
+ */
 .row .table .tableHead{
+	/* display: block; */
+	/* float: left; */
 	padding: 0 0;
+	vertical-align: middle;
+}
+
+.row .table .input{
+	padding: 0;
+}
+
+.row .table .buttons{
+	vertical-align: middle;
+	padding: 0;
+	display: grid;
+}
+
+.row .table .addNew{
+	width: 100%;
+	
 }
 
 .row .table .form-control{
 	color: black;
 	background-color: #3D7389;
-	width: auto;
+	width: 100%;
 	/* padding: 0 0; */
 }
 

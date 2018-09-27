@@ -180,20 +180,7 @@
             </h3>
  
           </div>
-          <div id="row" class="row">
-          
-		<!-- <table border="1" bgcolor="white" >
-			<tr>
-			<td>1</td>
-			<td>Apple</td>
-			<td>22,000</td>
-			<td>101.98</td>
-			<td>Goldman Sachs</td>
-			<td>JP</td>
-		</tr>
-		</table> -->
-		  
-          </div>
+          <div id="row" class="row"></div>
           <div id="settledTables"></div>
 
 
